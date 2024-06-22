@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simple WebXR Example</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- 创建一个天空背景 -->
+      <a-sky color="#ECECEC"></a-sky>
+
+      <!-- 创建一个红色立方体 -->
+      <a-box position="0 1 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+
+      <!-- 创建一个蓝色球体 -->
+      <a-sphere position="1 1 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+
+      <!-- 创建一个绿色圆柱 -->
+      <a-cylinder position="-1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+
+      <!-- 创建一个平面 -->
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+    </a-scene>
+  </body>
+</html>
